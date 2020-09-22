@@ -1,0 +1,149 @@
+@font-face { 
+    font-family: 'GoyangIlsan'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+body {
+    font-family: "GoyangIlsan",Helvetica,Arial,sans-serif;
+}
+
+/*  배경색 */
+footer {
+    background: #dbe4f1;
+}
+
+header {
+    border-bottom: 4px solid #004265;
+    background: #cce4f5;
+}
+
+header>#header-area>a>h1 {
+    width: 145px;
+    height: 38px;
+    background: url(https://ifh.cc/g/LhiKAh.png) no-repeat bottom;
+    background-size: 80%;
+}
+
+header>#header-area>#header-search-link {
+    color: #004265;
+}
+
+header > #header-search-bar #header-search-btn {
+    color: #004265;
+}
+
+header>#header-area>#header-bar-link {
+    color: #004265 !important;
+}
+
+nav#nav>#nav-upper>#header-close-bar-link {
+    color: #004265 !important;
+}
+
+/* 헤더 [광고]배경색 */
+#header-top-notice strong.notice-badge {
+   background: #004265;
+}
+
+/* 트게더 스코어 접속자 */
+#board-info h1>a {
+   color: #191970;
+   font-weight: bold;
+}
+
+#board-info #viewers-area, #board-info #score-area {
+    color: #8d629e;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "당근 "; /* 접속자 수 앞 문구 */
+    cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "개 무럭무럭"; /* 접속자 수 뒤 문구 */
+    cursor: text;
+}
+
+/* 당근 img */
+#board-info #viewers-area .fa-user:before {
+    color: rgba(0,0,0,0);
+    vertical-align: middle;
+    content: url(https://i.ibb.co/n7Nf18T/goodok-LV3-18.png);
+}
+
+/* 게시판메뉴 */
+#board-info {
+   border-bottom: none;
+}
+
+#article-list #article-list-category {
+    border-top: 1px solid #004265;
+    border-bottom: 1px solid#004265;
+    background: #fff;  
+}
+
+#article-list #article-list-category>a {
+   background: #fff;
+}
+
+/* 게시판 댓글수 */
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #191970;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count,
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: #191970;
+}
+
+/* 즐겨찾기 별 모양 color */
+#board-info>a.board-right-menu {
+   color: #efc839;
+}
+
+/* 게시판 페이징 */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #4c7aa8;
+    border-color: #4c7aa8;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #4c7aa8;
+}
+
+
+/* 스마트 기기 (세로기준) */
+/* 태블릿, 아이패드 */
+@media (min-width: 768px) and (max-width: 1024px) {
+   #article-list>.article-list-row>.item>a.list-title>.title-value {
+      max-width: 100%;
+   }
+}
+
+/* 아이폰6,7,8,X */
+@media (min-width: 370px) and (max-width: 480px){
+   #article-list>.article-list-row>.item>a.list-title>.title-value {
+      max-width: 230px;
+   }
+}
+
+/* 갤럭시 */
+@media (min-width: 321px) and (max-width: 360px) {
+   #article-list>.article-list-row>.item>a.list-title>.title-value {
+      max-width: 210px;
+   }
+}
+
+/* 아이폰5,SE */
+@media (max-width: 320px) {
+   #article-list>.article-list-row>.item>a.list-title>.title-value {
+      max-width: 170px;
+   }
+   #board-info #viewers-area #viewers:after {
+      content: "개"; /* 접속자 수 뒤 문구 */
+      cursor: text;
+   }
+}

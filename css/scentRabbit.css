@@ -1,0 +1,239 @@
+/*
+Developer: GGongD
+e-mail: ggong23@gmail.com
+Updated: 2020-09-22
+*/
+@font-face { 
+    font-family: 'GoyangIlsan'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+html {
+   background: none;
+}
+body {
+    font-family: "GoyangIlsan",Helvetica,Arial,sans-serif;
+    height: auto;
+    min-width: 1100px;
+    background: #c1d0e67a;
+}
+
+footer {
+    background: #c1ccdc;
+}
+
+/* 로고밑 NAV bar */
+header #header-bar>.row {
+  border-top: 7px solid 	#004265;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* 헤더 배너 */
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 145px;
+  height: 50px;
+  background: url(https://ifh.cc/g/LhiKAh.png) no-repeat;
+  background-size: auto 50px;
+}
+
+/* 기존 트게더 로고 설정 */
+header .row>div:nth-child(1)>a>img {
+  display: none;
+}
+
+/* 검색폼 보더 */
+header #right-search-form>input[type='text'] {
+  border: 3px solid #004265;
+}
+
+/* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
+#main .menu-wrapper>.header {
+  background: 	#4c7aa8;
+}
+
+/* 좌측 메뉴 앞 아이콘 */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  color: white;
+}
+
+.fa-square:before {
+  color: #4169E1;
+}
+
+/* 헤더Nav, 메인블록 테두리 */
+header #header-bar>.row,
+#main .menu-wrapper,
+#main #main-content>div.frame {
+  border-right: none;
+  border-bottom: none;
+}
+
+#main .menu-wrapper {
+  border: none;
+}
+
+/* 헤더 검색 버튼 */
+header #right-search-form>#right-search-btn {
+  color: #004265;
+}
+
+/* 헤더 [광고]배경색 */
+header #header-bar #header-top-notice strong.notice-badge {
+  background: #004265;
+}
+
+/* fa색상 */
+header #header-bar .fa {
+  color: #0000CD;
+}
+
+/* 스트리머 게시판 상단 정보 글씨색상 */
+#board-info #board-info-bottom a {
+  color: #191970;
+}
+
+/* 좌측메뉴 숏컷링크 글씨 색상 */
+#main .menu-wrapper>a>em {
+  color: #4169E1;
+}
+
+/* 좌측메뉴 메뉴사이의 공간 색상 */
+#main .menu-wrapper .spacer {
+  background: #4169E1;
+  height: 0.20em;
+}
+
+/* 트게더 스코어 접속자 */
+#board-info h1>a {
+   color: #191970;
+   font-weight: bold;
+}
+
+#board-info #viewers-area, #board-info #score-area {
+    color: #8d629e;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "당근 "; /* 접속자 수 앞 문구 */
+    cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "개 무럭무럭"; /* 접속자 수 뒤 문구 */
+    cursor: text;
+}
+
+#board-info #viewers-area .fa-user:before {
+    color: rgba(0,0,0,0);
+    vertical-align: middle;
+    content: url(https://i.ibb.co/n7Nf18T/goodok-LV3-18.png);
+}
+
+/* 게시글 관련부분 */
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #191970;
+  border-bottom: 2px solid #191970;
+  background: white;
+}
+
+#article-list #article-list-category>a {
+  background: white;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #191970;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #191970;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #191970;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #4c7aa8;
+  border-color: #4c7aa8;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #4c7aa8;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #4c7aa8;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #191970;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #191970;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #191970 !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #191970;
+}
+
+#main .menu-wrapper>a {
+  padding: 0.5em 1.4em 0.5em 0.7em !important;
+}
+
+a {
+  color: #191970;
+}
+
+span.a-badge i.fa.fa-info-circle {
+  color: 	#6495ED;
+}
+
+/* footer */
+#article-list>.article-list-row {
+  border-right: none;
+}
+
+#article-list #article-list-menu {
+  box-sizing: border-box;
+  width: unset;
+  margin: 20px;
+}
+
+#article-list #boardSearchForm {
+  padding-bottom: 20px;
+  height: unset;
+}
+
+/* movetotop btn */
+#movetotop {
+   margin: 1em 1em 1em -3em;
+}
