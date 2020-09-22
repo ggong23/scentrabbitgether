@@ -24,6 +24,7 @@ header {
     background: #cce4f5;
 }
 
+/* 로고 */
 header>#header-area>a>h1 {
     width: 145px;
     height: 38px;
@@ -79,7 +80,7 @@ nav#nav>#nav-upper>#header-close-bar-link {
     content: url(https://i.ibb.co/n7Nf18T/goodok-LV3-18.png);
 }
 
-/* 게시판메뉴 */
+/* 게시판 메뉴 */
 #board-info {
    border-bottom: none;
 }
@@ -119,6 +120,21 @@ nav#nav>#nav-upper>#header-close-bar-link {
     color: #4c7aa8;
 }
 
+/* movetotop btn */
+#movetotop {
+  display: inline-block;
+  opacity: 1;
+  background: url(https://ggong23.github.io/scentrabbitgether/img/hyangha.png);    
+  width: 75px;  
+  height: 75px;
+  margin: 1em 1em 1em -5em;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#movetotop img{
+  display:none;
+}
 
 /* 스마트 기기 (세로기준) */
 /* 태블릿, 아이패드 */
