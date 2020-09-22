@@ -15,13 +15,13 @@ body {
 }
 
 /*  배경색 */
-footer {
-    background: #dbe4f1;
-}
-
 header {
     border-bottom: 4px solid #004265;
-    background: #cce4f5;
+    background: #6ba7ff;
+}
+
+footer {
+    background: #6ba7ff;
 }
 
 /* 로고 */
@@ -118,6 +118,12 @@ nav#nav>#nav-upper>#header-close-bar-link {
 
 .pagination>li>a, .pagination>li>span {
     color: #4c7aa8;
+}
+
+/* footer color */
+footer>.container span,
+footer>.container a {
+  color: #fff;
 }
 
 /* movetotop btn */

@@ -17,11 +17,7 @@ body {
     font-family: "GoyangIlsan",Helvetica,Arial,sans-serif;
     height: auto;
     min-width: 1100px;
-    background: #c1d0e67a;
-}
-
-footer {
-    background: #c1ccdc;
+    background: #6ba7ff;
 }
 
 /* 로고밑 NAV bar */
@@ -231,6 +227,12 @@ span.a-badge i.fa.fa-info-circle {
 #article-list #boardSearchForm {
   padding-bottom: 20px;
   height: unset;
+}
+
+/* footer color */
+footer>.container span,
+footer>.container a {
+  color: #fff;
 }
 
 /* movetotop btn */
