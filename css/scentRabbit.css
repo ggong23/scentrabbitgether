@@ -2,7 +2,7 @@
 Developer: GGongD
 e-mail: ggong23@gmail.com
 Updated: 2020-09-22
-Updated: 2021-05-14(이미지경로 수정)
+Updated: 2021-05-14
 */
 @font-face { 
     font-family: 'GoyangIlsan'; 
@@ -131,8 +131,9 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-top: 2px solid #328df2; 
 }
 
-/* 게시글 내용 댓글 갯수 */
-#article-reply-area>.header h5 {
+/* 게시글 내용 댓글 */
+#article-reply-area>.header h5,
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
     color: #328df2;
 }
 
