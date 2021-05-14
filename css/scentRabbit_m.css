@@ -33,12 +33,12 @@ header>#header-area>a>h1 {
     background-size: 80%;
 }
 
-/* 상단 돋보기(누르기전) */
-/* 상단 돋보기(after) */
+/* 상단 돋보기 */
 /* 상단 검색 close */
 header>#header-area>#header-search-link,
-header > #header-search-bar #header-search-btn,
-header>#header-search-bar #header-close-search-btn {
+header>#header-search-bar#header-search-btn,
+header>#header-area>#header-bar-link,
+header>#header-search-bar#header-close-search-btn {
     color: #fff;
 }
 
