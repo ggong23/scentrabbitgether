@@ -2,6 +2,7 @@
 Developer: GGongD
 e-mail: ggong23@gmail.com
 Updated: 2020-09-22
+Updated: 2021-05-14(이미지경로 수정)
 */
 @font-face { 
     font-family: 'GoyangIlsan'; 
@@ -28,7 +29,7 @@ footer {
 header>#header-area>a>h1 {
     width: 145px;
     height: 38px;
-    background: url(https://ifh.cc/g/LhiKAh.png) no-repeat bottom;
+    background: url(https://ggong23.github.io/scentrabbitgether/img/logo_new.png) no-repeat;
     background-size: 80%;
 }
 
@@ -77,7 +78,7 @@ nav#nav>#nav-upper>#header-close-bar-link {
 #board-info #viewers-area .fa-user:before {
     color: rgba(0,0,0,0);
     vertical-align: middle;
-    content: url(https://i.ibb.co/n7Nf18T/goodok-LV3-18.png);
+	content: url(https://ggong23.github.io/scentrabbitgether/img/goodok-LV3-18.png);
 }
 
 /* 게시판 메뉴 */
@@ -130,7 +131,7 @@ footer>.container a {
 #movetotop {
   display: inline-block;
   opacity: 1;
-  background: url(https://ggong23.github.io/scentrabbitgether/img/hyangha.png);    
+  background: url(https://ggong23.github.io/scentrabbitgether/img/hyangha.png);
   width: 75px;  
   height: 75px;
   margin: 1em 1em 1em -5em;
