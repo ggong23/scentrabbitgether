@@ -107,7 +107,7 @@ header>#header-search-bar #header-search-input {
 /* 게시글 댓글수(오른쪽), 글쓴이 */
 #article-list>.article-list-row>.item>a.list-title>small.comment-count,
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
-    color: #191970;
+    color: #328df2;
 }
 
 /* 게시글 내용 댓글 */
